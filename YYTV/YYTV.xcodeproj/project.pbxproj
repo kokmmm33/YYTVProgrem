@@ -16,9 +16,19 @@
 		2E83EDF01F776FB900E56B22 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E83EDE61F776FB900E56B22 /* Home.storyboard */; };
 		2E83EDF21F776FB900E56B22 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E83EDE91F776FB900E56B22 /* Profile.storyboard */; };
 		2E83EDF41F776FB900E56B22 /* Rank.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E83EDEC1F776FB900E56B22 /* Rank.storyboard */; };
+		2ECBAFFE1FB4342B0009B300 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECBAFFD1FB4342B0009B300 /* UIColor-Extension.swift */; };
+		2ECBB0001FB43C1E0009B300 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECBAFFF1FB43C1E0009B300 /* HomeViewController.swift */; };
+		2ECBB0021FB43C580009B300 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECBB0011FB43C580009B300 /* DiscoverViewController.swift */; };
+		2ECBB0041FB43C7E0009B300 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECBB0031FB43C7E0009B300 /* ProfileViewController.swift */; };
+		2ECBB0061FB43C930009B300 /* RankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECBB0051FB43C930009B300 /* RankViewController.swift */; };
+		2ECBB0091FB44DB40009B300 /* CJPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECBB0081FB44DB40009B300 /* CJPageView.swift */; };
+		2ECBB00B1FB44DD80009B300 /* CJPageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECBB00A1FB44DD80009B300 /* CJPageTitleView.swift */; };
+		2ECBB00D1FB44DF20009B300 /* CJPageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECBB00C1FB44DF20009B300 /* CJPageContentView.swift */; };
+		2EF0AE581FB4B22200605483 /* CJPageViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF0AE571FB4B22200605483 /* CJPageViewStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E1B894C1FB4669A006F91B8 /* MainTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarController.swift; sourceTree = "<group>"; };
 		2E83ED9A1F77602300E56B22 /* YYTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E83ED9D1F77602300E56B22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E83ED9F1F77602300E56B22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,6 +40,15 @@
 		2E83EDE61F776FB900E56B22 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		2E83EDE91F776FB900E56B22 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		2E83EDEC1F776FB900E56B22 /* Rank.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Rank.storyboard; sourceTree = "<group>"; };
+		2ECBAFFD1FB4342B0009B300 /* UIColor-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		2ECBAFFF1FB43C1E0009B300 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2ECBB0011FB43C580009B300 /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		2ECBB0031FB43C7E0009B300 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		2ECBB0051FB43C930009B300 /* RankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankViewController.swift; sourceTree = "<group>"; };
+		2ECBB0081FB44DB40009B300 /* CJPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CJPageView.swift; sourceTree = "<group>"; };
+		2ECBB00A1FB44DD80009B300 /* CJPageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CJPageTitleView.swift; sourceTree = "<group>"; };
+		2ECBB00C1FB44DF20009B300 /* CJPageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CJPageContentView.swift; sourceTree = "<group>"; };
+		2EF0AE571FB4B22200605483 /* CJPageViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CJPageViewStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +62,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E3A96161F77D9B3009C3FE0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2E1B894C1FB4669A006F91B8 /* MainTabbarController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		2E83ED911F77602300E56B22 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +103,10 @@
 		2E83EDE11F776FB900E56B22 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				2ECBB0071FB44D840009B300 /* Custom */,
+				2ECBAFFC1FB4339B0009B300 /* Extension */,
+				2ECBAFFB1FB433860009B300 /* Category */,
+				2E3A96161F77D9B3009C3FE0 /* Main */,
 				2E83EDE21F776FB900E56B22 /* Discover */,
 				2E83EDE51F776FB900E56B22 /* Home */,
 				2E83EDE81F776FB900E56B22 /* Profile */,
@@ -88,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				2E83EDE31F776FB900E56B22 /* Discover.storyboard */,
+				2ECBB0011FB43C580009B300 /* DiscoverViewController.swift */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
@@ -96,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				2E83EDE61F776FB900E56B22 /* Home.storyboard */,
+				2ECBAFFF1FB43C1E0009B300 /* HomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -104,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				2E83EDE91F776FB900E56B22 /* Profile.storyboard */,
+				2ECBB0031FB43C7E0009B300 /* ProfileViewController.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -112,8 +146,35 @@
 			isa = PBXGroup;
 			children = (
 				2E83EDEC1F776FB900E56B22 /* Rank.storyboard */,
+				2ECBB0051FB43C930009B300 /* RankViewController.swift */,
 			);
 			path = Rank;
+			sourceTree = "<group>";
+		};
+		2ECBAFFB1FB433860009B300 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2ECBAFFC1FB4339B0009B300 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2ECBAFFD1FB4342B0009B300 /* UIColor-Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2ECBB0071FB44D840009B300 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				2ECBB0081FB44DB40009B300 /* CJPageView.swift */,
+				2ECBB00A1FB44DD80009B300 /* CJPageTitleView.swift */,
+				2ECBB00C1FB44DF20009B300 /* CJPageContentView.swift */,
+				2EF0AE571FB4B22200605483 /* CJPageViewStyle.swift */,
+			);
+			path = Custom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,8 +253,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ECBB0001FB43C1E0009B300 /* HomeViewController.swift in Sources */,
 				2E83EDA01F77602300E56B22 /* ViewController.swift in Sources */,
+				2ECBB00D1FB44DF20009B300 /* CJPageContentView.swift in Sources */,
+				2ECBAFFE1FB4342B0009B300 /* UIColor-Extension.swift in Sources */,
+				2ECBB0021FB43C580009B300 /* DiscoverViewController.swift in Sources */,
+				2EF0AE581FB4B22200605483 /* CJPageViewStyle.swift in Sources */,
+				2ECBB0041FB43C7E0009B300 /* ProfileViewController.swift in Sources */,
 				2E83ED9E1F77602300E56B22 /* AppDelegate.swift in Sources */,
+				2ECBB0061FB43C930009B300 /* RankViewController.swift in Sources */,
+				2ECBB0091FB44DB40009B300 /* CJPageView.swift in Sources */,
+				2ECBB00B1FB44DD80009B300 /* CJPageTitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
