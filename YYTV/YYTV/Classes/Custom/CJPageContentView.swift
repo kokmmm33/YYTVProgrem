@@ -11,8 +11,12 @@ import UIKit
 
 let kCellIdentifier = "cellIndent"
 
+protocol CJPageContentViewDelegate : class {
+    func pageContentViewScrollToIndex(index : Int)
+}
+
 class CJPageContentView: UIView {
-    
+    weak var delegate : CJPageContentViewDelegate?
     private let childVcs : [UIViewController]
     private let partnerVc : UIViewController
     private lazy var collectionView : UICollectionView = {
@@ -24,6 +28,7 @@ class CJPageContentView: UIView {
         let collectionView = UICollectionView(frame: self.bounds, collectionViewLayout: layout)
         collectionView.register(UICollectionViewCell.self , forCellWithReuseIdentifier: kCellIdentifier)
         collectionView.dataSource = self
+        collectionView.delegate = self 
         collectionView.isPagingEnabled = true
         collectionView.bounces = false
         collectionView.scrollsToTop = false
@@ -78,7 +83,22 @@ extension CJPageContentView : UICollectionViewDataSource {
         cell.contentView.addSubview(childVc.view)
         return cell
     }
+}
+
+extension CJPageContentView : UICollectionViewDelegate {
+    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+        let index = scrollView.contentOffset.x / scrollView.bounds.width
+        print(index)
+        delegate?.pageContentViewScrollToIndex(index: Int(index))
+    }
     
 }
 
+extension CJPageContentView : CJTitleViewDelegate {
+    func titleLableClick(index: Int) {
+        
+        collectionView.scrollToItem(at: IndexPath(item: index, section: 0), at: .centeredHorizontally, animated: false)
+    }
+
+}
 

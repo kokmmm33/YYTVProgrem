@@ -14,6 +14,7 @@ class CJPageView: UIView {
     fileprivate let childVcs : [UIViewController]
     fileprivate let partnerVc : UIViewController
     fileprivate var titleView : CJPageTitleView!
+    fileprivate var contentView : CJPageContentView!
     fileprivate let style : CJPageViewStyle
 
     init(frame : CGRect, titles : [String], childViewControllers: [UIViewController], partnerVc : UIViewController, style : CJPageViewStyle) {
@@ -36,6 +37,8 @@ extension CJPageView {
     private func setupUI() {
         setupTitleView()
         setupContentView()
+        titleView.delegate = contentView
+        contentView.delegate = titleView
     }
     
 }
@@ -55,7 +58,7 @@ extension CJPageView {
     private func setupContentView() {
         let frame = CGRect(x: 0, y: titleView.bounds.height, width: self.bounds.width, height: self.bounds.height - titleView.bounds.height)
         
-        let contentView = CJPageContentView(frame: frame, childVcs: childVcs, partnerVc: partnerVc)
+        contentView = CJPageContentView(frame: frame, childVcs: childVcs, partnerVc: partnerVc)
         addSubview(contentView)
     }
     

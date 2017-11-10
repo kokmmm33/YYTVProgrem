@@ -169,8 +169,8 @@
 		2ECBB0071FB44D840009B300 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
-				2ECBB0081FB44DB40009B300 /* CJPageView.swift */,
 				2ECBB00A1FB44DD80009B300 /* CJPageTitleView.swift */,
+				2ECBB0081FB44DB40009B300 /* CJPageView.swift */,
 				2ECBB00C1FB44DF20009B300 /* CJPageContentView.swift */,
 				2EF0AE571FB4B22200605483 /* CJPageViewStyle.swift */,
 			);
