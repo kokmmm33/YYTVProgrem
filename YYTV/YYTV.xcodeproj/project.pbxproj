@@ -24,6 +24,7 @@
 		2ECBB0091FB44DB40009B300 /* CJPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECBB0081FB44DB40009B300 /* CJPageView.swift */; };
 		2ECBB00B1FB44DD80009B300 /* CJPageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECBB00A1FB44DD80009B300 /* CJPageTitleView.swift */; };
 		2ECBB00D1FB44DF20009B300 /* CJPageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECBB00C1FB44DF20009B300 /* CJPageContentView.swift */; };
+		2EEE79731FB5A71D00098B43 /* WaterFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEE79721FB5A71D00098B43 /* WaterFlowLayout.swift */; };
 		2EF0AE581FB4B22200605483 /* CJPageViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF0AE571FB4B22200605483 /* CJPageViewStyle.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		2ECBB0081FB44DB40009B300 /* CJPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CJPageView.swift; sourceTree = "<group>"; };
 		2ECBB00A1FB44DD80009B300 /* CJPageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CJPageTitleView.swift; sourceTree = "<group>"; };
 		2ECBB00C1FB44DF20009B300 /* CJPageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CJPageContentView.swift; sourceTree = "<group>"; };
+		2EEE79721FB5A71D00098B43 /* WaterFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFlowLayout.swift; sourceTree = "<group>"; };
 		2EF0AE571FB4B22200605483 /* CJPageViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CJPageViewStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -169,12 +171,29 @@
 		2ECBB0071FB44D840009B300 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				2EEE79711FB5A69300098B43 /* New Group */,
+				2EEE79701FB5A67E00098B43 /* PageVIew */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		2EEE79701FB5A67E00098B43 /* PageVIew */ = {
+			isa = PBXGroup;
+			children = (
 				2ECBB00A1FB44DD80009B300 /* CJPageTitleView.swift */,
 				2ECBB0081FB44DB40009B300 /* CJPageView.swift */,
 				2ECBB00C1FB44DF20009B300 /* CJPageContentView.swift */,
 				2EF0AE571FB4B22200605483 /* CJPageViewStyle.swift */,
 			);
-			path = Custom;
+			path = PageVIew;
+			sourceTree = "<group>";
+		};
+		2EEE79711FB5A69300098B43 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				2EEE79721FB5A71D00098B43 /* WaterFlowLayout.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ECBB0001FB43C1E0009B300 /* HomeViewController.swift in Sources */,
+				2EEE79731FB5A71D00098B43 /* WaterFlowLayout.swift in Sources */,
 				2E83EDA01F77602300E56B22 /* ViewController.swift in Sources */,
 				2ECBB00D1FB44DF20009B300 /* CJPageContentView.swift in Sources */,
 				2ECBAFFE1FB4342B0009B300 /* UIColor-Extension.swift in Sources */,
